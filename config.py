@@ -22,7 +22,7 @@ ASSUSERNAME = getenv("ASSUSERNAME")
 
 # ======================================================
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOGGER_ID = int(getenv("LOGGER_ID", -1002060224175))
+LOGGER_ID = int(getenv("LOGGER_ID", 00))
 
 API_URL = getenv("API_URL", 'https://pytdbotapi.thequickearn.xyz') 
 VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
@@ -45,7 +45,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # ======================================================
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Itzz-Sukku/sukoo")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Itzz-Sukku/iam")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
