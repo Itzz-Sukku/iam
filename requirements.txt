@@ -1,36 +1,30 @@
-# Telegram core
-pyrogram==2.0.106
-pytgcalls==3.0.0.dev24
-tgcrypto
-
-# Async / Networking
 aiofiles
-aiohttp
-httpx==0.25.2
-requests
+aiohttp 
+asyncio 
 dnspython
-
-# Database / Scheduler
-motor
-apscheduler
-psutil
-
-# Media / Audio / Video
 ffmpeg-python
-yt-dlp
-pillow==9.5.0
-opencv-python
-hachoir
-
-# YouTube / Spotify
-youtube-search-python
-spotipy
-unidecode
-py-yt-search
-# Utils
 gitpython
+hachoir
+heroku3
+psutil
+apscheduler
+motor 
+pillow==9.5.0
+Pytgcall me ==0.9.7 
+ntgcalls
+pykeyboard
+pyrofork
 python-dotenv
 pyyaml==6.0.1
-beautifulsoup4
+requests
 speedtest-cli
-heroku3
+spotipy
+tgcrypto
+unidecode
+yt-dlp
+youtube-search
+py-yt-search
+youtube-search-python
+httpx>=0.28.1
+opencv-python
+beautifulsoup4
